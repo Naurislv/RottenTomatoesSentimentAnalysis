@@ -23,11 +23,13 @@ KerasLSTM.ipynb # Experiments and submission creation
 *GoogleNews-vectors-negative300.bin* # Google word2vec model should be stored here
 ```
 
-## Results
+## Current state
 
 Results of-course are not yet satisfying. Better than all classified as Neutral (51.x) so 10% up from that.
 
 Currently first experiments done in [KerasLSTM.ipynb](KerasLSTM.ipynb) and these results achieved.
+
+__I suspect much more work at data preprocessing which I wasnt spending much time on but decided to go straight to classification itself. Better understanding of data is crucial to undestand why results are so bad.__
 
 ![kaggle_score](images/kaggle_score.png)
 
