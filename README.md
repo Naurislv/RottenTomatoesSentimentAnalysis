@@ -1,6 +1,6 @@
 # Rotten Tomatoes Sentiment Analysis
 
-Rotten Tomatoes Sentiment analysis using word embeddings RNN in Tensorflow. 
+Rotten Tomatoes Sentiment analysis using word embeddings RNN in Keras/Tensorflow. 
 
 Nautural Language Processing (NLP) is not only extensively researched topic but also largely used in production environments for transcription, speech recognition (and synthesis), translation etc. The goal of this project is to explore progress and used methods in this field and apply some of them for Sentiment analysis. Dataset is choosed from [Kaggle competitions posted in 2015](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews).
 
@@ -18,8 +18,11 @@ data/
     load_dataset.py # Load training and testing dataset
     test.tsv # Test dataset
     train.tsv # Train dataset
+
 Explore.ipynb # Explore datasets
+
 KerasLSTM.ipynb # Experiments and submission creation
+
 *GoogleNews-vectors-negative300.bin* # Google word2vec model should be stored here
 ```
 
@@ -27,7 +30,7 @@ KerasLSTM.ipynb # Experiments and submission creation
 
 Results of-course are not yet satisfying. Better than all classified as Neutral (51.x) so 10% up from that.
 
-Currently first experiments done in [KerasLSTM.ipynb](KerasLSTM.ipynb) and these results achieved.
+Currently first experiments done in [KerasLSTM.ipynb](KerasLSTM.ipynb).
 
 __I suspect much more work at data preprocessing which I wasnt spending much time on but decided to go straight to classification itself. Better understanding of data is crucial to undestand why results are so bad.__
 
